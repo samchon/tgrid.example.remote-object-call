@@ -1,4 +1,4 @@
-## TGrid WebSocket Example
+## TGrid ROC Example
 `tgrid.example.remote-object-call` is an example project of `TGrid`.
 
 It describes how to realize ROC (Remote Object Call) with RPC (Remote Procedure Call).
