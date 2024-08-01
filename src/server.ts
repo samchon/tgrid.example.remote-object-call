@@ -17,6 +17,7 @@ export const webSocketServerMain = async () => {
 
     // ACCEPT OR REJECT
     await acceptor.accept(new CompositeCalculator(config, listener));
+    acceptor.ping(15_000); // PING REPEATEDLY TO KEEP CONNECTION
   });
   return server;
 };
